@@ -1,0 +1,22 @@
+$npm init -y
+$npm install jest
+
+Depois, no arquivo package.json precisa ter:
+  "scripts": {
+    "test": "jest"
+  },
+
+1 - Cria um arquivo com o nome {nome}.test.jest
+
+2 - No arquivo onde está a função, faz o export com module.exports = {nome da função a ser testada}
+
+3 - No arquivo de teste, faz o importe com: const {nome da função a ser testada, de preferência - isso aqui é como ela será referenciada no arquivo de teste} = require('{caminho para o arquivo onde tá a função (sem a extensão .js)}') 
+
+4 - Configura tudo com as funções test() e expect()
+
+5 - $npm run test
+
+Dicas:
+  -Para testar apenas um arquivo, usa $npm run test {nome do arquivo}
+  -Test Suites é a quantidade de arquivos de testes
+  -Tests é a quantidade de testes de fato (pode haver mais de um por Test Suit)

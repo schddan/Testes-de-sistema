@@ -1,0 +1,12 @@
+Test Driven Development
+
+O que é?
+ -Paradigma de desenvolvimento
+
+Como faz?
+ -Escreve teste antes de fazer o código
+ -Roda o teste e ele vai dar erro, pois o código não existe ainda
+ -Cria o código
+ -Roda o teste
+ -Corrige
+ -Repete
