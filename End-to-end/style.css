@@ -1,7 +1,7 @@
 *{
-    gap: 0;
-    padding: 0;
-    margin: 0;
+    gap: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 #center{
@@ -21,7 +21,28 @@
     align-items: center;
 }
 
-#botaoConfirmar{
+#form input{
     width: 15vw;
     height: 5vh;
+    max-width: 150px;
+    border-radius: 5px;
+    border: solid #d1d1d1;
+    border-width: 1px;
+    padding-left: 5px;
+}
+
+#botaoConfirmar{
+    width: 15vw;
+    height: 4vh;
+    max-height: 50px;
+    max-width: 110px;
+    background-color: #00af00;
+    border-radius: 5px;
+    border-width: 0px;
+    color: #ffffff;
+}
+
+#botaoConfirmar:hover{
+    background-color: #000099;
+    transition: 400ms;
 }
